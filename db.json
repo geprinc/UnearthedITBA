@@ -1,0 +1,12 @@
+{
+	"oferta":[
+	{
+		"titulo":"Dummy", "empresa":"unearthed", "offerID":1, "ubicacion":"Ciudad Autonoma de Buenos Aires",
+		"Descripción":null, "Requisitos":123, "Contacto":"Roberto", "categoria":"Finanzas"
+		}],
+	"user":[
+	{
+		"UserID":1, "nombre":"Nacho", "apellido": "Vidaurreta", "mail": null, "imagen":null, "cv":null, 
+		"edad":21, "telefono":123, "ofertas de negocio":null
+		}]
+}
