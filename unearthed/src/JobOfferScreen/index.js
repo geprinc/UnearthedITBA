@@ -62,8 +62,6 @@ export default class JobOfferScreen extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // justifyContent: 'center',
-
     backgroundColor: '#F5FCFF',
   },
   title: {
@@ -74,8 +72,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   subtitle:{
-        fontWeight: 'bold',
-
+    fontWeight: 'bold',
     fontSize: 22,
     textAlign: 'center',
     margin: 10,
@@ -98,6 +95,6 @@ const styles = StyleSheet.create({
     marginTop: 20,
     borderWidth:5,
     borderRadius:2,
-    width: 300,
+    width: 300
   },
 });
