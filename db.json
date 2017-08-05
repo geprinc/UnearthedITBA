@@ -1,12 +1,92 @@
 {
 	"oferta":[
 	{
-		"titulo":"Dummy", "empresa":"unearthed", "offerID":1, "ubicacion":"Ciudad Autonoma de Buenos Aires",
-		"Descripción":null, "Requisitos":123, "Contacto":"Roberto", "categoria":"Finanzas"
+		"titulo":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales",
+		"empresa":"Unearthed", 
+		"offerID":1, 
+		"ubicacion":"Ciudad Autonoma de Buenos Aires, Argentina",
+		"Descripción":
+		"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.", 
+		"Requisitos":"Ser participante de la Unearthed Hackathon", 
+		"Contacto":"11-1111-1111", 
+		"categoria":"Finanzas"
+		},
+	{
+		"titulo":"DummyTitle00",
+		"empresa":"Alphabet", 
+		"offerID":2, 
+		"ubicacion":"San Francisco, USA",
+		"Descripción":
+		"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.", 
+		"Requisitos":"Ser y no ser", 
+		"Contacto":"11-2222-2222", 
+		"categoria":"Informática"
+		},
+	{
+		"titulo":"DummyTitle01",
+		"empresa":"Barrick", 
+		"offerID":3, 
+		"ubicacion":"San Juan, Argentina",
+		"Descripción":
+		"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.", 
+		"Requisitos":"Experiencia en minería", 
+		"Contacto":"11-3333-3333", 
+		"categoria":"Minería"
+		},
+	{
+		"titulo":"DummyTitle02",
+		"empresa":"J.P. Morgan", 
+		"offerID":4, 
+		"ubicacion":"Ciudad Autonoma de Buenos Aires, Argentina",
+		"Descripción":
+		"Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.", 
+		"Requisitos":"Experto en inversiones", 
+		"Contacto":"11-4444-4444", 
+		"categoria":"Finanzas"
 		}],
 	"user":[
 	{
-		"UserID":1, "nombre":"Nacho", "apellido": "Vidaurreta", "mail": null, "imagen":null, "cv":null, 
-		"edad":21, "telefono":123, "ofertas de negocio":null
+		"UserID":1, 
+		"nombre":"Aurelio", 
+		"apellido": "Barrick", 
+		"mail": "aurelioBarrick@gmail.com", 
+		"imagen":null, 
+		"edad":21, 
+		"telefono":"4111-1111", 
+		"ofertas de negocio":null, 
+		"nivel de estudio":"Secundario terminado"
+		},
+	{
+		"UserID":2, 
+		"nombre":"John", 
+		"apellido": "Doe", 
+		"mail": "johnDoe@gmail.com", 
+		"imagen":null, 
+		"edad":44, 
+		"telefono":"4222-2222", 
+		"ofertas de negocio":null, 
+		"nivel de estudio": "Ingeniero Químico"
+		},
+	{
+		"UserID":3, 
+		"nombre":"Jane", 
+		"apellido": "Doe", 
+		"mail": "janeDoe@gmail.com", 
+		"imagen":null, 
+		"edad":17, 
+		"telefono":"4333-3333", 
+		"ofertas de negocio":null, 
+		"nivel de estudio": "Secundario en progreso"
+		},
+	{
+		"UserID":1, 
+		"nombre":"Lorenzo", 
+		"apellido": "Ipsum", 
+		"mail": "lorenzoIpsum@gmail.com", 
+		"imagen":null, 
+		"edad":33, 
+		"telefono":"4444-4444", 
+		"ofertas de negocio":null, 
+		"nivel de estudio": "Abogado"
 		}]
 }
