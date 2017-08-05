@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
 import { ScrollView, TouchableOpacity, Text, View, Image } from 'react-native';
 
+import imagen from '../assets/left4dead_logo.png'
 import styles from './styles';
 
 export default class Profile extends Component {
   render() {
     return (
       <View>
-        <Image style={styles.image} source={{ uri: this.props.imagen}} />
-        <Text style={styles.title}>{this.props.nombre}</Text>
+        <View style={styles.header}>
+          <Image style={styles.image} source={imagen} />
+          <Text style={styles.title}>{this.props.nombre}</Text>
+        </View>
         <View style={styles.divider}/>
         <Text style={styles.semiTitle}>Información Personal</Text>
         <Text style={styles.data}>Edad: {this.props.edad}</Text>
         <Text style={styles.data}>Educacion: {this.props.educacion}</Text>
-        <TouchableOpacity  style={styles.dataButton} onPress={() => {}}>
-          <Text style={styles.textButton}>Actualizar datos</Text>
-        </TouchableOpacity>
+        <View style={styles.buttonView}>
+          <TouchableOpacity  style={styles.dataButton} onPress={() => {}}>
+            <Text style={styles.textButton}>Actualizar datos</Text>
+          </TouchableOpacity>
+        </View>
         <View style={styles.divider}/>
       </View>
     );

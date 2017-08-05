@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import { Text, View, FlatList } from 'react-native';
 
-import JobOffer from './jobOffer/index'
+import Separator from './separator';
+import JobItem from './jobItem';
+import styles from './styles';
 
 const offers = [
   {
@@ -29,25 +31,15 @@ export default class JobsList extends Component {
     return (
       <View>
         <Text style={styles.text}>
-          Ofertas Laborales:
+          Ofertas Laborales
         </Text>
-        <FlatList data={offers} renderItem={item => <JobOffer item={item.item}/>} />
+        <Separator />
+        <FlatList
+          data={offers}
+          renderItem={item => <JobItem item={item.item}/>}
+          ItemSeparatorComponent={Separator}
+        />
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  text: {
-    fontSize: 20,
-    textAlign: 'center',
-    backgroundColor:'red',
-    color: 'black'
-  }
-});

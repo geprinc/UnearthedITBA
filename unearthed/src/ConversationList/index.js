@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, FlatList, Image} from 'react-native';
 
-import Conversation from './Conversation/index'
+import Conversation from './Conversation'
 
 const conversations = [
   {
@@ -38,12 +38,6 @@ export default class ConversationList extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
   title: {
     fontSize: 30,
     textAlign: 'center',

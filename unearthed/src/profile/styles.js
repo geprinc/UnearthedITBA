@@ -1,6 +1,10 @@
 import { StyleSheet } from 'react-native';
 
 export default  StyleSheet.create({
+  header: {
+    alignItems: 'center',
+    marginVertical: 20
+  },
   image: {
     borderRadius: 100,
     backgroundColor: 'transparent',
@@ -8,6 +12,7 @@ export default  StyleSheet.create({
     height: 100
   },
   title: {
+    color: 'black',
     fontSize: 24,
     marginVertical: 15,
     justifyContent: 'center'
@@ -27,14 +32,19 @@ export default  StyleSheet.create({
     marginLeft: 20
   },
   dataButton: {
-    width: 150,
+    width: 180,
     backgroundColor: 'green',
     borderRadius: 10,
     padding: 10,
-    justifyContent: 'flex-end'
+    alignItems: 'center'
   },
   textButton:{
     textAlign: 'center',
     fontSize: 18
+  },
+  buttonView: {
+    alignItems: 'flex-end',
+    marginVertical: 10,
+    marginRight: 10
   }
 });
