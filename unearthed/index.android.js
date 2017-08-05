@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -12,6 +6,7 @@ import {
   View
 } from 'react-native';
 
+import Profile from './src/profile/index';
 import LoginScreen from './src/LoginScreen'
 import JobOfferScreen from './src/JobOfferScreen'
 
@@ -20,7 +15,7 @@ export default class unearthed extends Component {
   render() {
     return (
       <View style={styles.container}>
-      <LoginScreen />
+        <LoginScreen />
       </View>
     );
   }
@@ -29,8 +24,7 @@ export default class unearthed extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'stretch',
     backgroundColor: '#F5FCFF',
   },
   welcome: {
