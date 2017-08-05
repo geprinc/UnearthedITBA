@@ -7,17 +7,15 @@ import {
 } from 'react-native';
 
 import Profile from './src/profile/index';
+import LoginScreen from './src/LoginScreen'
+import JobOfferScreen from './src/JobOfferScreen'
+
 
 export default class unearthed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Profile
-          imagen="https://k42.kn3.net/taringa/4/1/3/9/1/1/3/danielgarcia2010/7AF.jpg"
-          nombre="Guido"
-          edad={22}
-          educacion="Universitaria en Progreso"
-        />
+        <LoginScreen />
       </View>
     );
   }
