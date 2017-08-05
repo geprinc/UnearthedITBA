@@ -10,12 +10,13 @@ import JobsList from './src/jobList';
 import Profile from './src/profile';
 import Login from './src/login'
 import JobOffer from './src/jobOffer'
+import ConversationList from './src/ConversationList'
 
 export default class unearthed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Login />
+        <ConversationList />
       </View>
     );
   }
