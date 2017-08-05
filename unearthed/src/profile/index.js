@@ -6,8 +6,10 @@ export default class unearthed extends Component {
     return (
       <View style={styles.container}>
         <Image style={styles.image} source={this.props.item.imagen} />
-        <Text>{this.props.item.nombre}</Text>
+        <Text style={styles.}>{this.props.item.nombre}</Text>
         <View style={styles.divider}/>
+        <Text>Información Personal</Text>
+        
       </View>
     );
   }
