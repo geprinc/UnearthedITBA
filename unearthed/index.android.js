@@ -7,12 +7,15 @@ import {
 } from 'react-native';
 
 import JobsList from './src/jobList/index';
+import Profile from './src/profile/index';
+import LoginScreen from './src/LoginScreen'
+import JobOfferScreen from './src/JobOfferScreen'
 
 export default class unearthed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <JobsList />
+        <LoginScreen />
       </View>
     );
   }
