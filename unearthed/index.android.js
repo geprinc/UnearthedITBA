@@ -6,16 +6,16 @@ import {
   View
 } from 'react-native';
 
-import JobsList from './src/jobList/index';
-import Profile from './src/profile/index';
-import LoginScreen from './src/LoginScreen'
-import JobOfferScreen from './src/JobOfferScreen'
+import JobsList from './src/jobList';
+import Profile from './src/profile';
+import Login from './src/login'
+import JobOffer from './src/jobOffer'
 
 export default class unearthed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <LoginScreen />
+        <Login />
       </View>
     );
   }

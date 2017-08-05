@@ -9,7 +9,7 @@ import {
 
 import styles from './styles';
 
-export default class LoginScreen extends Component {
+export default class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {username: "", password: "", text: ""};
