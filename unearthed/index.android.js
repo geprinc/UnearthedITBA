@@ -6,6 +6,7 @@ import {
   View
 } from 'react-native';
 
+import ConversationList from './src/ConversationList'
 import JobsList from './src/jobList/index';
 import Profile from './src/profile/index';
 import LoginScreen from './src/LoginScreen'
