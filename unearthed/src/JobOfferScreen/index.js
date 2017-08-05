@@ -19,28 +19,23 @@ export default class JobOfferScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-
         <Text style={styles.title}
         value={this.state.title}>
         </Text>
-
         <Text>
           Descripción del puesto:
         </Text>
         <Text style={styles.description}
-          value={this.state.description>
+          value={this.state.description}>
         </Text>
-
         <Button
-          onPress={this.onPressLoginButton(this.getState(username, password))}
+          onPress={this.onPressLoginButton(this.state.username, this.state.password))}
           title="Aplicar a esta oferta"
           color="#FF6219"
           accessibilityLabel="Iniciar sesión"/>
-
         <Text style={styles.description}>
           {this.state.text}
         </Text>
-
       </View>
     );
   }

@@ -13,12 +13,14 @@ import {
 } from 'react-native';
 
 import LoginScreen from './src/LoginScreen'
+import JobOfferScreen from './src/JobOfferScreen'
+
 
 export default class unearthed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <LoginScreen />
+      <LoginScreen />
       </View>
     );
   }
