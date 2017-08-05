@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -13,11 +7,17 @@ import {
 } from 'react-native';
 
 import ConversationList from './src/ConversationList'
+import JobsList from './src/jobList/index';
+import Profile from './src/profile/index';
+import LoginScreen from './src/LoginScreen'
+import JobOfferScreen from './src/JobOfferScreen'
 
 export default class unearthed extends Component {
   render() {
     return (
-      <ConversationList />
+      <View style={styles.container}>
+        <LoginScreen />
+      </View>
     );
   }
 }
@@ -25,20 +25,9 @@ export default class unearthed extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'stretch',
     backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  }
 });
 
 AppRegistry.registerComponent('unearthed', () => unearthed);
