@@ -6,20 +6,18 @@ import {
   View
 } from 'react-native';
 
+import Profile from './src/profile/index';
+
 export default class unearthed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        <Profile
+          imagen="https://k42.kn3.net/taringa/4/1/3/9/1/1/3/danielgarcia2010/7AF.jpg"
+          nombre="Guido"
+          edad={22}
+          educacion="Universitaria en Progreso"
+        />
       </View>
     );
   }
