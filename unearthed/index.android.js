@@ -6,18 +6,17 @@ import {
   View
 } from 'react-native';
 
-import JobsList from './src/jobList';
-import Profile from './src/profile';
-import Login from './src/login'
-import JobOffer from './src/jobOffer'
-import ConversationList from './src/ConversationList'
+import JobsList from './src/screens/jobList';
+import Profile from './src/screens/profile';
+import Login from './src/screens/login'
+import JobOffer from './src/screens/jobOffer'
+import ConversationList from './src/screens/conversationList'
+import Navigator from './src/screens';
 
 export default class unearthed extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <ConversationList />
-      </View>
+      <Navigator />
     );
   }
 }
