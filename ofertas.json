@@ -1,3 +1,4 @@
+{
 "ofertas":[
 	{
 		"titulo":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales",
@@ -63,3 +64,4 @@
 		"Contacto":"11-4444-4444", 
 		"categoria":"Finanzas"
 		}]
+}
