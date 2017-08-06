@@ -40,8 +40,9 @@ export default StyleSheet.create({
     borderColor: 'gray'
   },
   picture:{
-    width:90,
-    height:90,
+    alignSelf: 'flex-start',
+    width:60,
+    height:60,
     resizeMode:'stretch',
     borderRadius:1000,
   }
