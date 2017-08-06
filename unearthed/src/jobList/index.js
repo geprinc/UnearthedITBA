@@ -5,19 +5,19 @@ import JobOffer from './jobOffer/index'
 
 const offers = [
   {
-      id: 1,
+      key: 1,
       title: "Sarasa 1",
       requerimientos: "Ninguno",
       categoria: "A"
   },
   {
-      id: 1,
+      key: 1,
       title: "Sarasa 2",
       requerimientos: "Ninguno",
       categoria: "B"
   },
   {
-      id: 1,
+      key: 1,
       title: "Sarasa 3",
       requerimientos: "Ninguno",
       categoria: "C"

@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
     margin: 5,
   },
   text: {
-    paddingTop: 5,
+    fontSize: 15,
+    paddingTop: 10,
     color: 'black',
     marginLeft: 10,
     width:200,
