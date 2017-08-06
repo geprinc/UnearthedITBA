@@ -11,7 +11,7 @@ const messages = [
       senderId: "40129158",
       timeReceived: 1501970745,
       converserName:"Ricardo Estevez",
-      messageContent: "Buenos días Guido, estamos interesados en tu oferta sobre la produccion de indumentaria para la mina."
+      messageContent: "Buenos días Aurelio, estamos interesados en tu oferta sobre la produccion de indumentaria para la mina."
   },
   {
       key: 2,
@@ -57,7 +57,7 @@ export default class Chat extends Component {
   }
   render() {
     return (
-      <View>
+      <View style={{ backgroundColor: '#d7ffd5', flex: 1}}>
         <Text style={styles.title}>
           Esteban Gonzales
         </Text>

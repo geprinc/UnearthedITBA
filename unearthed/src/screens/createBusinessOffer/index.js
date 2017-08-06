@@ -23,7 +23,7 @@ export default class BusinessOffer extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>
-          Crear oferta de trabajo
+          Crear oferta de negocio
         </Text>
 
         <Text style={styles.subtitle}>
@@ -46,7 +46,7 @@ export default class BusinessOffer extends Component {
         <TouchableOpacity
         onPress={this.onPressApplyButton}>
           <Text style={styles.buttonApply}>
-            CREAR OFERTA DE TRABAJO
+            CREAR OFERTA DE NEGOCIO
           </Text>
         </TouchableOpacity>
         </View>

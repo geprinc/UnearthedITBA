@@ -6,21 +6,21 @@ import Conversation from './Conversation'
 
 const conversations = [
   {
-      id: 1,
+      key: 1,
       converserId: "40129158",
       converserName:"Esteban Gonzales",
-      lastMessagePreview: "Buenos días Guido, estamos interesados en tu oferta..."
+      lastMessagePreview: "Buenos días Aurelio, estamos interesados en tu oferta..."
   },
   {
-      id: 2,
+      key: 2,
       converserId: "40129152",
       converserName:"Tito Rodriguez",
       lastMessagePreview: "Muchas gracias!"
   },
   {
-      id: 3,
+      key: 3,
       converserId: "40129134",
-      converserName:"Cabezon Estevez",
+      converserName:"Ricardo Estevez",
       lastMessagePreview: "Y dónde completaste tus estudios?"
   }
 ];

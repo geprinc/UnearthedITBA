@@ -14,7 +14,8 @@
 		"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
 		"Requisitos":"Ser participante de la Unearthed Hackathon",
 		"Contacto":"11-1111-1111",
-		"categoria":"Seguridad, recursos humanos"
+		"categoria":"Seguridad, recursos humanos",
+		"key": 1
 		},
 	{
 		"titulo":"Mentor en Hackathon",
@@ -30,7 +31,8 @@
 		"Se necesita un mentor experto en minería para ayudar a los participantes en la Hackathon a desarrollar en Digital House el 3 de Agosto 2017", 
 		"Requisitos":"Tener experiencia previa como mentor en otra Hackathon", 
 		"Contacto":"11-1111-1111", 
-		"categoria":"Mentor"
+		"categoria":"Mentoría",
+		"key": 2
 		},
 	{
 		"titulo":"Experto en simulación de sistemas",
@@ -46,7 +48,8 @@
 		" Experto en simulación para desarrollar mejores formas de extraer el oro de las rocas", 
 		"Requisitos":"Tener experiencia en el desarollo de simulaciones", 
 		"Contacto":"11-2222-2222", 
-		"categoria":"Informática"
+		"categoria":"Informática",
+		"key": 3
 		},
 	{
 		"titulo":"Supervisor de procesos",
@@ -62,7 +65,8 @@
 		"Se precisa supervisor de procesos in-situ", 
 		"Requisitos":"Experiencia en minería", 
 		"Contacto":"11-3333-3333", 
-		"categoria":"Minería"
+		"categoria":"Minería",
+		"key": 4
 		},
 	{
 		"titulo":"Investigador de inversiones dentro del area de la mineria",
@@ -78,6 +82,7 @@
 		"Se necesita un", 
 		"Requisitos":"Experto en inversiones", 
 		"Contacto":"11-4444-4444", 
-		"categoria":"Finanzas"
+		"categoria":"Finanzas",
+		"key": 5
 		}]
 }

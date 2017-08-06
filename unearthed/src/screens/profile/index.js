@@ -11,7 +11,7 @@ export default class Profile extends Component {
       <View style={styles.container}>
         <View style={styles.header}>
           <Image style={styles.image} source={imagen} />
-          <Text style={styles.title}>Guido Princ</Text>
+          <Text style={styles.title}>Aurelio Buendia</Text>
         </View>
         <View style={styles.divider}/>
         <Text style={styles.semiTitle}>Información Personal</Text>

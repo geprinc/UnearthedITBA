@@ -1,13 +1,13 @@
 import { PureComponent } from 'react';
 import { NavigationActions, TabNavigator, StackNavigator } from 'react-navigation';
 
+import BusinessOffer from './screens/createBusinessOffer'
+import Chat from './screens/chat'
 import Login from './screens/login';
 import JobsList from './screens/jobList';
 import JobOffer from './screens/jobOffer';
 import ConversationList from './screens/conversationList';
 import Profile from './screens/profile';
-import Chat from './screens/chat';
-import BusinessOffer from './screens/createBusinessOffer';
 import { NavigationOptions } from './NavigationOptions';
 
 export default StackNavigator({
@@ -32,7 +32,14 @@ export default StackNavigator({
         }
       },
       {
-        tabBarPosition: 'bottom'
+        tabBarPosition: 'bottom',
+        tabBarOptions: {
+          activeTintColor: 'white',
+          inactiveTintColor: 'white',
+          style: {
+            backgroundColor: '#4348a9'
+          }
+        }
       }
     ),
     navigationOptions: NavigationOptions.tabs
@@ -43,10 +50,11 @@ export default StackNavigator({
   },
   Chat: {
     screen: Chat,
-    navigationOptions: NavigationOptions.chat
+    navigationOptions: NavigationOptions.jobOffer
   },
   BusinessOffer: {
     screen: BusinessOffer,
     navigationOptions: NavigationOptions.jobOffer
-  }
+  },
+
 });

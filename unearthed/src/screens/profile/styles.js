@@ -1,6 +1,10 @@
 import { StyleSheet } from 'react-native';
 
 export default  StyleSheet.create({
+  container: {
+    backgroundColor: '#d7ffd5',
+    flex: 1
+  },
   header: {
     alignItems: 'center',
     marginVertical: 20
