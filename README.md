@@ -1,8 +1,8 @@
-# Nombre de la App(X)
+# ConnectApp
 
 ## ¿Para qué sirve?
 
-X es una aplicación innovadora que tiene como objetivo unir a las comunidades de Jáchal e Iglesia con las empresas. Permite a los miembros de las comunidades conectarse con nuevas oportunidades de negocio con empresas, a las cuales les pueden ofrecer mano de obra o indumentaria/bienes materiales, tratando de sobrepasar con tecnología obstáculos como mala conectividad y falta entrenamiento digital en algunos casos.  
+ConnectApp es una aplicación innovadora que tiene como objetivo unir a las comunidades de Jáchal e Iglesia con las empresas. Permite a los miembros de las comunidades conectarse con nuevas oportunidades de negocio con empresas, a las cuales les pueden ofrecer mano de obra o indumentaria/bienes materiales, tratando de sobrepasar con tecnología obstáculos como mala conectividad y falta entrenamiento digital en algunos casos.  
 
 ## ¿Cómo funciona?
 
