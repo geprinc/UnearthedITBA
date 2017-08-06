@@ -28,6 +28,9 @@ export default StackNavigator({
           screen: ConversationList,
           navigationOptions: NavigationOptions.conversations
         }
+      },
+      {
+        tabBarPosition: 'bottom'
       }
     ),
     navigationOptions: NavigationOptions.tabs
