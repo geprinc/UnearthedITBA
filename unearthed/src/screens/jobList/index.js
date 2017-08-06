@@ -7,27 +7,6 @@ import JobItem from './jobItem';
 import styles from './styles';
 import offersJson from '../../json/ofertas.json';
 
-const offers = [
-  {
-      key: 1,
-      title: "Sarasa 1",
-      requerimientos: "Ninguno",
-      categoria: "A"
-  },
-  {
-      key: 2,
-      title: "Sarasa 2",
-      requerimientos: "Ninguno",
-      categoria: "B"
-  },
-  {
-      key: 3,
-      title: "Sarasa 3",
-      requerimientos: "Ninguno",
-      categoria: "C"
-  }
-];
-
 export default class JobsList extends Component {
   handleCreation = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'BusinessOffer' }));
 

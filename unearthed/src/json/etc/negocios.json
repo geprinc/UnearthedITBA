@@ -1,0 +1,15 @@
+{
+"negocios":[
+	{
+		"titulo": "Venta de delantales",
+		"descripcion": "Hace años que hago delantales muy resistenes y de buena calidad.",
+		"persona a cargo":"39999999",
+		"negocioID": 1
+	},
+	{
+		"titulo": "Proveer alimentos",
+		"descripcion": "Me gustaría venderles los elementos que me sobran de la cosecha ",
+		"persona a cargo":"39999997",
+		"negocioID":2
+		}]
+}
