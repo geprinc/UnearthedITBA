@@ -16,5 +16,8 @@ export const NavigationOptions = {
   }),
   jobOffer: () => ({
     header: null
+  }),
+  chat: () => ({
+    header: null
   })
 };

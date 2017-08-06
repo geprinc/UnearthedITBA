@@ -48,7 +48,7 @@ const messages = [
   },
 ];
 
-export default class ChatScreen extends Component {
+export default class Chat extends Component {
   constructor(props) {
     super(props);
     this.state = {message: ""};
@@ -68,10 +68,10 @@ export default class ChatScreen extends Component {
           </TextInput>
           <TouchableOpacity
           onPress={this.onPressLoginButton}>
-          <Image source={require('../assets/send_icon.png')} style={styles.buttonSend}/>
+          <Image source={require('../../assets/send_icon.png')} style={styles.buttonSend}/>
           </TouchableOpacity>
         </View>
-        
+
       </View>
     );
   }
