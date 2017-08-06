@@ -22,7 +22,7 @@ export default class JobOffer extends Component {
 
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <Text style={styles.title}>
           {this.state.title}
         </Text>

@@ -33,7 +33,7 @@ export default  StyleSheet.create({
   },
   dataButton: {
     width: 180,
-    backgroundColor: 'green',
+    backgroundColor: '#ffa22a',
     borderRadius: 10,
     padding: 10,
     alignItems: 'center'

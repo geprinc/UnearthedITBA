@@ -27,7 +27,7 @@ const conversations = [
 export default class ConversationList extends Component {
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <Text style={styles.title}>
           Mensajes:
         </Text>
@@ -38,6 +38,10 @@ export default class ConversationList extends Component {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#d7ffd5'
+  },
   title: {
     fontSize: 30,
     marginLeft: 20

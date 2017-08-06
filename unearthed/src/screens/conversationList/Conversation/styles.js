@@ -5,6 +5,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     backgroundColor: '#ffe8a5',
+    flex: 1,
     height: 100,
     margin: 5,
     borderRadius: 4,

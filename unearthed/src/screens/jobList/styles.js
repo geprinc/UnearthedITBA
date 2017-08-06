@@ -1,15 +1,18 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#d7ffd5'
+  },
   text: {
     fontSize: 24,
     textAlign: 'center',
-    color: 'black',
     marginVertical: 15
   },
   tradeButton: {
     marginTop: 15,
-    backgroundColor: 'gray',
+    backgroundColor: '#b2cdff',
     alignItems: 'center',
     width: 300,
     borderRadius: 20,

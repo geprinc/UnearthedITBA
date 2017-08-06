@@ -1,6 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+  container: {
+    backgroundColor: '#d7ffd5'
+  },
   title: {
     fontWeight: 'bold',
     fontSize: 30,
@@ -26,8 +29,8 @@ export default StyleSheet.create({
     fontSize: 22,
     fontWeight: '500',
     color: 'white',
-    backgroundColor: '#30d12e',
-    borderColor: '#30d12e',
+    backgroundColor: '#ffa22a',
+    borderColor: '#ffa22a',
     marginTop: 20,
     borderWidth:5,
     borderRadius:2,

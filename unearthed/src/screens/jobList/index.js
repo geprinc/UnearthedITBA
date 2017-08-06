@@ -9,21 +9,21 @@ import styles from './styles';
 const offers = [
   {
       id: 1,
-      title: "Sarasa 1",
+      title: "Ingeniero en sistemas Sr",
       requerimientos: "Ninguno",
-      categoria: "A"
+      categoria: "informatica"
   },
   {
       id: 1,
-      title: "Sarasa 2",
+      title: "Guardia Nocturno zona Explosiones",
       requerimientos: "Ninguno",
-      categoria: "B"
+      categoria: "Seguridad"
   },
   {
       id: 1,
-      title: "Sarasa 3",
+      title: "Administrador de negocios",
       requerimientos: "Ninguno",
-      categoria: "C"
+      categoria: "Finanzas"
   }
 ];
 
@@ -32,7 +32,7 @@ export default class JobsList extends Component {
 
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <TouchableOpacity style={styles.tradeButton} onPress={this.handleCreation}>
           <Text style={styles.text}>Crear Oferta de Negocio</Text>
         </TouchableOpacity>

@@ -7,7 +7,7 @@ import styles from './styles';
 export default class Profile extends Component {
   render() {
     return (
-      <View>
+      <View style={styles.container}>
         <View style={styles.header}>
           <Image style={styles.image} source={imagen} />
           <Text style={styles.title}>{this.props.nombre}</Text>

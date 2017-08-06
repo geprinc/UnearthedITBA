@@ -5,7 +5,7 @@ export default  StyleSheet.create({
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: '#F5FCFF'
+      backgroundColor: '#d7ffd5'
     },
     welcome: {
       fontSize: 20,
@@ -29,14 +29,14 @@ export default  StyleSheet.create({
       paddingTop: 12,
       paddingHorizontal:12,
       fontSize: 18,
-      backgroundColor: '#FF6100',
-      borderColor: '#FF6100'
+      backgroundColor: '#ffa22a',
+      borderColor: '#ffa22a'
     },
     buttonRegister: {
       paddingTop: 7,
       paddingHorizontal:7,
       fontSize: 16,
-      backgroundColor: '#75ccff',
-      borderColor: '#75ccff'
+      backgroundColor: '#69e269',
+      borderColor: '#69e269'
     }
 });
