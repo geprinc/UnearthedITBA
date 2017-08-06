@@ -1,0 +1,67 @@
+{
+"ofertas":[
+	{
+		"titulo":"Administrador de seguridad",
+		"empresa":{
+			"nombre":"Unearthed",
+			"mail": "contact@unearthed.com",
+			"Cuit": 22222222222
+			},
+		"aplicantes": ["39999998"],
+		"offerID":1,
+		"ubicacion":"Ciudad Autonoma de Buenos Aires, Argentina",
+		"descripcion":
+		"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+		"Requisitos":"Ser participante de la Unearthed Hackathon",
+		"Contacto":"11-1111-1111",
+		"categoria":"Seguridad, recursos humanos"
+		},
+	{
+		"titulo":"DummyTitle00",
+		"empresa":{
+			"nombre":"Alphabet",
+			"mail": "contact@alphabet.com",
+			"Cuit": 12345678910
+			},
+		"aplicantes":["39999997"],
+		"offerID":2,
+		"ubicacion":"San Francisco, USA",
+		"descripcion":
+		"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+		"Requisitos":"Ser y no ser",
+		"Contacto":"11-2222-2222",
+		"categoria":"Informática"
+		},
+	{
+		"titulo":"DummyTitle01",
+		"empresa":{
+			"nombre":"Barrick",
+			"mail": "contact@barrick.com",
+			"Cuit": 11111111111
+			},
+		"aplicantes":["39999996"],
+		"offerID":3,
+		"ubicacion":"San Juan, Argentina",
+		"descripcion":
+		"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+		"Requisitos":"Experiencia en minería",
+		"Contacto":"11-3333-3333",
+		"categoria":"Minería"
+		},
+	{
+		"titulo":"DummyTitle02",
+		"empresa":{
+			"nombre":"J.P. Morgan",
+			"mail": "contact@jpmorgan.com",
+			"CUIT":"33333333333"
+			},
+		"aplicantes":[""],
+		"offerID":4,
+		"ubicacion":"Ciudad Autonoma de Buenos Aires, Argentina",
+		"descripcion":
+		"Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+		"Requisitos":"Experto en inversiones",
+		"Contacto":"11-4444-4444",
+		"categoria":"Finanzas"
+		}]
+}

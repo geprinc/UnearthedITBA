@@ -5,6 +5,7 @@ import { TouchableOpacity, Text, View, FlatList } from 'react-native';
 import Separator from './separator';
 import JobItem from './jobItem';
 import styles from './styles';
+import offersJson from '../../json/ofertas.json';
 
 const offers = [
   {
@@ -43,7 +44,7 @@ export default class JobsList extends Component {
         </Text>
         <Separator />
         <FlatList
-          data={offers}
+          data={offersJson.ofertas}
           renderItem={item => <JobItem item={item.item} onPress={this.openOffer} />}
           ItemSeparatorComponent={Separator}
         />
