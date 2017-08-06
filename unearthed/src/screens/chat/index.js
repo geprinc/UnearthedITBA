@@ -10,7 +10,7 @@ const messages = [
       senderId: "40129158",
       timeReceived: 1501970745,
       converserName:"Ricardo Estevez",
-      messageContent: "Buenos días Aurelio, estamos interesados en tu oferta sobre la produccion de indumentaria para la mina."
+      messageContent: "Buenos días Guido, estamos interesados en tu oferta sobre la produccion de indumentaria para la mina."
   },
   {
       key: 2,

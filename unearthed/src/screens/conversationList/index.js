@@ -9,7 +9,7 @@ const conversations = [
       id: 1,
       converserId: "40129158",
       converserName:"Esteban Gonzales",
-      lastMessagePreview: "Buenos días Aurelio, estamos interesados en tu oferta..."
+      lastMessagePreview: "Buenos días Guido, estamos interesados en tu oferta..."
   },
   {
       id: 2,
