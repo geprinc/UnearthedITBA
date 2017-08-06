@@ -40,6 +40,6 @@ export default class ConversationList extends Component {
 const styles = StyleSheet.create({
   title: {
     fontSize: 30,
-    textAlign: 'center',
+    marginLeft: 20
   }
 });

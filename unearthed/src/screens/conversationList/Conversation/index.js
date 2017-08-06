@@ -10,7 +10,7 @@ export default class Conversation extends Component {
     return (
       <TouchableOpacity style={styles.conversation} onPress={() => this.handlePress(this.props.item)}>
         <View style={styles.conversation}>
-          <Image source={require('../../assets/profile.png')} style={styles.picture}/>
+          <Image source={require('../../../assets/profile.png')} style={styles.picture}/>
           <View style={styles.conversationText}>
             <Text style={styles.name}>{this.props.item.converserName}</Text>
             <Text style={styles.lastMessage}>{this.props.item.lastMessagePreview}</Text>
