@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, TouchableOpacity, Text, View, Image } from 'react-native';
 
-import imagen from '../../assets/profile.png'
+import imagen from '../../assets/aurelio.png'
 import styles from './styles';
 
 export default class Profile extends Component {

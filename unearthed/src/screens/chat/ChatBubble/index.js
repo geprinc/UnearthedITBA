@@ -15,7 +15,7 @@ export default class ChatBubble extends Component {
           <Text style={styles.text}>{this.props.item.messageContent}</Text>
         </View>
         {this.props.item.senderId == "40129134" &&
-          <Image source={require('../../../assets/profile2.png')} style={styles.picture}/>}
+          <Image source={require('../../../assets/aurelio.png')} style={styles.picture}/>}
       </View>
     );
   }

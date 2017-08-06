@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   bubble: {
     backgroundColor: '#ffe8a5',
-    height: 100,
     margin: 5,
     borderRadius: 10,
   },
@@ -19,7 +18,7 @@ export default StyleSheet.create({
   },
   text: {
     fontSize: 15,
-    paddingTop: 10,
+    paddingTop: 5,
     color: 'black',
     marginLeft: 10,
     width:200,
@@ -43,7 +42,6 @@ export default StyleSheet.create({
     alignSelf: 'flex-start',
     width:60,
     height:60,
-    resizeMode:'stretch',
     borderRadius:1000,
   }
 });
