@@ -1,0 +1,83 @@
+{
+"ofertas":[
+	{
+		"titulo":"Administrador de seguridad",
+		"empresa":{
+			"nombre":"Unearthed",
+			"mail": "contact@unearthed.com",
+			"Cuit": 22222222222
+			},
+		"aplicantes": ["39999998"],
+		"offerID":1,
+		"ubicacion":"Ciudad Autonoma de Buenos Aires, Argentina",
+		"descripcion":
+		"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+		"Requisitos":"Ser participante de la Unearthed Hackathon",
+		"Contacto":"11-1111-1111",
+		"categoria":"Seguridad, recursos humanos"
+		},
+	{
+		"titulo":"Mentor en Hackathon",
+		"empresa":{
+			"nombre":"Unearthed", 
+			"mail": "contact@unearthed.com",     
+			"Cuit": 22222222222
+			},
+		"aplicantes": ["39999998"], 
+		"offerID":1, 
+		"ubicacion":"Ciudad Autonoma de Buenos Aires, Argentina",
+		"descripcion":
+		"Se necesita un mentor experto en minería para ayudar a los participantes en la Hackathon a desarrollar en Digital House el 3 de Agosto 2017", 
+		"Requisitos":"Tener experiencia previa como mentor en otra Hackathon", 
+		"Contacto":"11-1111-1111", 
+		"categoria":"Mentor"
+		},
+	{
+		"titulo":"Experto en simulación de sistemas",
+		"empresa":{
+			"nombre":"Alphabet", 
+			"mail": "contact@alphabet.com",     
+			"Cuit": 12345678910
+			},
+		"aplicantes":["39999997"], 
+		"offerID":2, 
+		"ubicacion":"San Francisco, USA",
+		"descripcion":
+		" Experto en simulación para desarrollar mejores formas de extraer el oro de las rocas", 
+		"Requisitos":"Tener experiencia en el desarollo de simulaciones", 
+		"Contacto":"11-2222-2222", 
+		"categoria":"Informática"
+		},
+	{
+		"titulo":"Supervisor de procesos",
+		"empresa":{
+			"nombre":"Barrick", 
+			"mail": "contact@barrick.com",     
+			"Cuit": 11111111111
+			},
+		"aplicantes":["39999996"], 
+		"offerID":3, 
+		"ubicacion":"San Juan, Argentina",
+		"descripcion":
+		"Se precisa supervisor de procesos in-situ", 
+		"Requisitos":"Experiencia en minería", 
+		"Contacto":"11-3333-3333", 
+		"categoria":"Minería"
+		},
+	{
+		"titulo":"Investigador de inversiones dentro del area de la mineria",
+		"empresa":{
+			"nombre":"J.P. Morgan",
+			"mail": "contact@jpmorgan.com",
+			"CUIT":"33333333333"
+			},
+		"aplicantes":[""], 
+		"offerID":4, 
+		"ubicacion":"Ciudad Autonoma de Buenos Aires, Argentina",
+		"descripcion":
+		"Se necesita un", 
+		"Requisitos":"Experto en inversiones", 
+		"Contacto":"11-4444-4444", 
+		"categoria":"Finanzas"
+		}]
+}

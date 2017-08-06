@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
+import { NavigationActions } from 'react-navigation';
 import {
-  AppRegistry,
-  StyleSheet,
   Image,
   Text,
   TextInput,
@@ -9,14 +8,16 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-export default class CreateBusinessOfferScreen extends Component {
+import styles from './styles';
+
+export default class BusinessOffer extends Component {
   constructor(props) {
     super(props);
     this.state = {
       title: "",
       description: ""}
   }
-  onPressApplyButton = () => {};
+  onPressApplyButton = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'Home' }));
 
   render() {
     return (
@@ -41,7 +42,7 @@ export default class CreateBusinessOfferScreen extends Component {
         onChangeText={(text) => this.setState({title: text})}
         value={this.state.description} />
 
-        <View style={styles.buttonContainer}>
+        <View style={[styles.container, styles.buttonContainer]}>
         <TouchableOpacity
         onPress={this.onPressApplyButton}>
           <Text style={styles.buttonApply}>
@@ -49,54 +50,8 @@ export default class CreateBusinessOfferScreen extends Component {
           </Text>
         </TouchableOpacity>
         </View>
-        
+
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    justifyContent: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  buttonContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#F5FCFF',
-    height: 400
-  },
-  title: {
-    fontWeight: 'bold',
-    fontSize: 30,
-    color: 'black',
-    textAlign: 'center',
-    margin: 10,
-  },
-  subtitle:{
-    fontWeight: 'bold',
-    fontSize: 22,
-    margin: 10,
-  },
-  description: {
-    fontSize: 18,
-    color: '#333333',
-    margin: 5,
-  },
-  buttonApply: {
-    textAlign: 'center',
-    paddingTop: 12,
-    paddingRight:12,
-    paddingLeft:12,
-    fontSize: 22,
-    fontWeight: '500',
-    color: 'white',
-    backgroundColor: '#30d12e',
-    borderColor: '#30d12e',
-    marginTop: 20,
-    borderWidth:5,
-    borderRadius:2,
-    width: 300,
-    bottom: 20
-  },
-});

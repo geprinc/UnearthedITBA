@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, FlatList, TextInput, Image} from 'react-native';
 
-import ChatBubble from './ChatBubble/index'
+import ChatBubble from './ChatBubble/index';
+
 import styles from './styles';
 
 const messages = [
@@ -10,7 +11,7 @@ const messages = [
       senderId: "40129158",
       timeReceived: 1501970745,
       converserName:"Ricardo Estevez",
-      messageContent: "Buenos días Aurelio, estamos interesados en tu oferta sobre la produccion de indumentaria para la mina."
+      messageContent: "Buenos días Guido, estamos interesados en tu oferta sobre la produccion de indumentaria para la mina."
   },
   {
       key: 2,
@@ -49,7 +50,7 @@ const messages = [
   },
 ];
 
-export default class ChatScreen extends Component {
+export default class Chat extends Component {
   constructor(props) {
     super(props);
     this.state = {message: ""};
@@ -67,12 +68,11 @@ export default class ChatScreen extends Component {
             onChangeText={(text) => this.setState({message: text})}
             value={this.state.message} >
           </TextInput>
-          <TouchableOpacity
-          onPress={this.onPressLoginButton}>
-          <Image source={require('../assets/send_icon.png')} style={styles.buttonSend}/>
+          <TouchableOpacity onPress={() => {}}>
+            <Image source={require('../../assets/send_icon.png')} style={styles.buttonSend}/>
           </TouchableOpacity>
         </View>
-        
+
       </View>
     );
   }

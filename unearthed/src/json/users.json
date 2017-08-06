@@ -1,0 +1,46 @@
+{
+"users":[
+	{
+		"UserID":1,
+		"nombre":"Aurelio Barrick",
+		"DNI": "39999999",
+		"mail": "aurelioBarrick@gmail.com",
+		"imagen":"https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+		"edad":21,
+		"telefono":"4111-1111",
+		"nivel de estudio":"Secundario terminado"
+		},
+	{
+		"UserID":2,
+		"nombre":"John Doe",
+		"DNI": "39999998",
+    "pswd": "123",
+		"mail": "johnDoe@gmail.com",
+		"imagen":"https://images.pexels.com/photos/38600/construction-worker-concrete-hummer-vibrator-38600.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+		"edad":25,
+		"telefono":"4222-2222",
+		"nivel de estudio": "Ingeniero Químico"
+		},
+	{
+		"UserID":3,
+		"nombre":"Jane Doe",
+		"DNI": "39999997",
+    "pswd": "123",
+		"mail": "janeDoe@gmail.com",
+		"imagen":"https://images.pexels.com/photos/411088/pexels-photo-411088.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+		"edad":17,
+		"telefono":"4333-3333",
+		"nivel de estudio": "Secundario en progreso"
+		},
+	{
+		"UserID":4,
+		"nombre":"Lorenzo Ipsum",
+		"DNI": "39999996",
+    "pswd": "123",
+		"mail": "lorenzoIpsum@gmail.com",
+		"imagen":"https://images.pexels.com/photos/21278/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb",
+		"edad":44,
+		"telefono":"4444-4444",
+		"nivel de estudio": "Abogado"
+		}]
+}
