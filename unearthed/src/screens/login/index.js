@@ -38,6 +38,7 @@ export default class Login extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Image source={require('../../assets/logo.png')} style={{resizeMode: 'stretch', width: 200, height: 200 }}/>
         <Text style={styles.welcome}>Ingrese su DNI:</Text>
         <TextInput
           style={{height: 40, width: 200, borderWidth: 0}}
