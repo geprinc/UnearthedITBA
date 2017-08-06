@@ -5,30 +5,12 @@ import { TouchableOpacity, Text, View, FlatList } from 'react-native';
 import Separator from './separator';
 import JobItem from './jobItem';
 import styles from './styles';
-
-const offers = [
-  {
-      id: 1,
-      title: "Sarasa 1",
-      requerimientos: "Ninguno",
-      categoria: "A"
-  },
-  {
-      id: 1,
-      title: "Sarasa 2",
-      requerimientos: "Ninguno",
-      categoria: "B"
-  },
-  {
-      id: 1,
-      title: "Sarasa 3",
-      requerimientos: "Ninguno",
-      categoria: "C"
-  }
-];
+import offersJson from '../../json/ofertas.json';
 
 export default class JobsList extends Component {
-  handleCreation = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'JobOffer' }));
+  handleCreation = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'BusinessOffer' }));
+
+  openOffer = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'JobOffer' }));
 
   render() {
     return (
@@ -41,8 +23,8 @@ export default class JobsList extends Component {
         </Text>
         <Separator />
         <FlatList
-          data={offers}
-          renderItem={item => <JobItem item={item.item}/>}
+          data={offersJson.ofertas}
+          renderItem={item => <JobItem item={item.item} onPress={this.openOffer} />}
           ItemSeparatorComponent={Separator}
         />
       </View>

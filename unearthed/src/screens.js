@@ -6,6 +6,8 @@ import JobsList from './screens/jobList';
 import JobOffer from './screens/jobOffer';
 import ConversationList from './screens/conversationList';
 import Profile from './screens/profile';
+import Chat from './screens/chat';
+import BusinessOffer from './screens/createBusinessOffer';
 import { NavigationOptions } from './NavigationOptions';
 
 export default StackNavigator({
@@ -37,6 +39,14 @@ export default StackNavigator({
   },
   JobOffer: {
     screen: JobOffer,
+    navigationOptions: NavigationOptions.jobOffer
+  },
+  Chat: {
+    screen: Chat,
+    navigationOptions: NavigationOptions.chat
+  },
+  BusinessOffer: {
+    screen: BusinessOffer,
     navigationOptions: NavigationOptions.jobOffer
   }
 });

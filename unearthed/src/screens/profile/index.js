@@ -6,16 +6,17 @@ import styles from './styles';
 
 export default class Profile extends Component {
   render() {
+    const {params} =this.props.navigation.state;
     return (
       <View>
         <View style={styles.header}>
           <Image style={styles.image} source={imagen} />
-          <Text style={styles.title}>{this.props.nombre}</Text>
+          <Text style={styles.title}>Guido Princ</Text>
         </View>
         <View style={styles.divider}/>
         <Text style={styles.semiTitle}>Información Personal</Text>
-        <Text style={styles.data}>Edad: {this.props.edad}</Text>
-        <Text style={styles.data}>Educacion: {this.props.educacion}</Text>
+        <Text style={styles.data}>Edad: 21</Text>
+        <Text style={styles.data}>Educacion: Universitario en Progreso</Text>
         <View style={styles.buttonView}>
           <TouchableOpacity  style={styles.dataButton} onPress={() => {}}>
             <Text style={styles.textButton}>Actualizar datos</Text>

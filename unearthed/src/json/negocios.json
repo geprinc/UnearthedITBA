@@ -1,0 +1,15 @@
+{
+"negocios": [
+	{
+		"titulo": "Venta de delantales",
+		"descripcion": "Vestibulum ultrices condimentum nisi eget aliquam. Maecenas dapibus diam sit amet consectetur lobortis. Nullam eu condimentum purus.",
+		"persona a cargo":"39999999",
+		"negocioID": 1
+	},
+	{
+		"titulo": "Proveer alimentos",
+		"descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo felis vel nisi gravida, et eleifend enim lobortis. Pellentesque efficitur lectus sed risus faucibus molestie.",
+		"persona a cargo":"39999997",
+		"negocioID":2
+		}]
+}

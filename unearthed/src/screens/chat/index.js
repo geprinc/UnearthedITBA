@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, FlatList, TextInput, Image} from 'react-native';
 
-import ChatBubble from './ChatBubble/index'
+import ChatBubble from './ChatBubble/index';
+import styles from './styles';
 
 const messages = [
   {
@@ -48,7 +49,7 @@ const messages = [
   },
 ];
 
-export default class ChatScreen extends Component {
+export default class Chat extends Component {
   constructor(props) {
     super(props);
     this.state = {message: ""};
@@ -66,53 +67,12 @@ export default class ChatScreen extends Component {
             onChangeText={(text) => this.setState({message: text})}
             value={this.state.message} >
           </TextInput>
-          <TouchableOpacity
-          onPress={this.onPressLoginButton}>
-          <Image source={require('../assets/send_icon.png')} style={styles.buttonSend}/>
+          <TouchableOpacity onPress={() => {}}>
+            <Image source={require('../../assets/send_icon.png')} style={styles.buttonSend}/>
           </TouchableOpacity>
         </View>
-        
+
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  title: {
-    fontSize: 30,
-    textAlign: 'center',
-  },
-  list: {
-    height: 475,
-  },
-  writingBar: {
-    flexDirection: 'row',
-    width: 200,
-    height: 80,
-    bottom:0
-  },
-  writingField: {
-    width:330,
-    height:50,
-    bottom:0
-  },
-  buttonStyle:{
-    textAlign: 'center',
-    fontWeight: '500',
-    color: 'red',
-    marginTop: 20,
-    borderWidth:5,
-    borderRadius:2
-  },
-  buttonSend: {
-    paddingTop: 12,
-    paddingHorizontal:12,
-    width: 50,
-    height: 50
-  },
-});
