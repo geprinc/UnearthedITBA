@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, TouchableOpacity, Text, View, Image } from 'react-native';
 
-import imagen from '../../assets/left4dead_logo.png'
+import imagen from '../../assets/profile.png'
 import styles from './styles';
 
 export default class Profile extends Component {
