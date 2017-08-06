@@ -28,7 +28,9 @@ const offers = [
 ];
 
 export default class JobsList extends Component {
-  handleCreation = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'JobOffer' }));
+  handleCreation = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'BusinessOffer' }));
+
+  openOffer = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'JobOffer' }));
 
   render() {
     return (
@@ -42,7 +44,7 @@ export default class JobsList extends Component {
         <Separator />
         <FlatList
           data={offers}
-          renderItem={item => <JobItem item={item.item}/>}
+          renderItem={item => <JobItem item={item.item} onPress={this.openOffer} />}
           ItemSeparatorComponent={Separator}
         />
       </View>

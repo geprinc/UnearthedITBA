@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavigationActions } from 'react-navigation';
 import {
   Image,
   Text,
@@ -18,7 +19,7 @@ export default class JobOffer extends Component {
       requisites: "Educacion primaria completa",
       categories: "Seguridad, recursos humanos"}
   }
-  onPressApplyButton = () => {};
+  onPressApplyButton = () => this.props.navigation.dispatch(NavigationActions.navigate({ routeName: 'Home' }));
 
   render() {
     return (
